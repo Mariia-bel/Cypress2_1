@@ -1,0 +1,7 @@
+{
+  "login": "qamid@qamid.ru",
+  "password": "qamid",
+  "loginField": "[for='email'] > .login__input",
+  "pwdField": "[for='pwd'] > .login__input",
+  "loginButton": ".login__button"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "cypress_2dz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "chrome": "npx cypress run --config-file cypress.config.js --browser chrome",
+    "chrome_headed": "npx cypress run --config-file cypress.config.js --browser chrome --headed"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.17.2"
+  }
+}

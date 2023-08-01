@@ -1,0 +1,12 @@
+{
+  "hallNameCreate": "My new hall 1",
+  "hallNameDelete": "[data-hall-name='My new hall 1']",
+  "createHall": ".conf-step__wrapper > :nth-child(3) > .conf-step__button",
+  "fieldOfHallName": "form > .conf-step__label > .conf-step__input",
+  "buttonOfAcceptHall": "form > .conf-step__buttons > .conf-step__button-accent",
+  "selectDay": "a.page-nav__day:nth-of-type(5)",
+  "acceptSeat": ".acceptin-button",
+  "activeFilmInAdmin": "#grid-session > div > div.conf-step__movies > div:nth-child(1) > h3",
+  "filmSession": "body > main > section:nth-child(1) > div.movie-seances__hall > ul > li:nth-child(1) > a",
+  "movie": ".movie"
+}
