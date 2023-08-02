@@ -12,7 +12,7 @@ it("Should be create and delete hall", () => {
   cy.get(booking.buttonOfAcceptHall).click();
   cy.contains(booking.hallNameCreate).should("be.visible").wait(2000);
   cy.get(booking.hallNameDelete).click();
-  cy.contains("Удалить").click();
+  cy.get("form > .conf-step__buttons > .conf-step__button-accent").click();
 });
 it("Should booking tickets", () => {
   cy.visit("http://qamid.tmweb.ru/admin");

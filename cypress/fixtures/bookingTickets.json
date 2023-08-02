@@ -1,6 +1,6 @@
 {
-  "hallNameCreate": "My new hall 1",
-  "hallNameDelete": "[data-hall-name='My new hall 1']",
+  "hallNameCreate": "My new hall 11",
+  "hallNameDelete": "[data-hall-name='My new hall 11']",
   "createHall": ".conf-step__wrapper > :nth-child(3) > .conf-step__button",
   "fieldOfHallName": "form > .conf-step__label > .conf-step__input",
   "buttonOfAcceptHall": "form > .conf-step__buttons > .conf-step__button-accent",
